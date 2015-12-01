@@ -186,6 +186,7 @@ ul {
 **          music player         **
 ***********************************/
 .bbplayer {
+  background-image: url("wintersnow.jpg");
   background-color: #000;
   color: #fff;
   display: -webkit-box;
@@ -273,7 +274,7 @@ ul {
   display: inline-block;
   font-weight: 400;
   margin-left: .2rem;
-  opacity: .2;
+  opacity: .6;
 }
 
 .bbplayer .bb-trackLength:before {
