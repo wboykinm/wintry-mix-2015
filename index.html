@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="google">
+  <title>A Wintry Mix 2015</title>
+  <meta content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui" name="viewport">
+  
+  <link href="mixtape.css" rel="stylesheet">
+  <script>
+      window.console = window.console || function(t) {};
+  </script>
+</head>
+<body>
+  <div class="bbplayer">
+    <div class="bb-controls">
+      <span class="bb-rewind"></span><span class="bb-play"></span><span class="bb-forward"></span>
+    </div>
+    <div class="bb-display">
+      <span class="bb-trackTime"></span>
+      <span class="bb-trackLength"></span>
+      <span class="bb-trackTitle"></span>
+    </div>
+    <audio>
+      <source src="https://www.dropbox.com/s/ecnpxkaxo71shag/Start%20Walking.mp3?dl=1">
+      <source src="https://www.dropbox.com/s/4xdbc5y67vqzg01/Flight%201946.mp3?dl=1">
+      <source src="https://www.dropbox.com/s/o7qqwk6mf9hmo5u/Follow%20These%20Instructions.mp3?dl=1">
+      <source src="https://www.dropbox.com/s/yxy1qrjsttuojwx/Next%20Manhattan%20Train.mp3?dl=1">
+      <source src="https://www.dropbox.com/s/p981k2glgg04u3k/Horizons.mp3?dl=1">
+      <source src="https://www.dropbox.com/s/qs7w3n1qilahs8t/EP%200908.mp3?dl=1">
+      <source src="https://www.dropbox.com/s/1241kh9mdfbmqll/Alive.mp3?dl=1">
+    </audio>
+  </div>
+  <div class="playlist focus">
+    <ul class="column-row">
+      <li>
+        <div class="column ratio-6-12">
+          <a href="https://www.dropbox.com/s/ecnpxkaxo71shag/Start%20Walking.mp3?dl=1"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/102827/start_cover_comp.png"></a>
+        </div>
+        <div class="column ratio-6-12">
+          <h2>start walking</h2>
+          <p>2015 / 25mb / 30min</p>
+        </div>
+      </li>
+      <li class="column ratio-4-12">
+        <a href="https://www.dropbox.com/s/4xdbc5y67vqzg01/Flight%201946.mp3?dl=1"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/102827/IMG_20141228_081407_1_1.jpg">
+        <p>flight 1946</p></a>
+        <p>2015 / 38mb / 45min</p>
+      </li>
+      <li class="column ratio-4-12">
+        <a href="https://www.dropbox.com/s/o7qqwk6mf9hmo5u/Follow%20These%20Instructions.mp3?dl=1"><img src=
+        "https://s3-us-west-2.amazonaws.com/s.cdpn.io/102827/follow_these_instructions_cover_comp_third_copy.jpg">
+        <p>follow these instructions</p></a>
+        <p>2014 / 40mb / 47min</p>
+      </li>
+      <li class="column ratio-4-12">
+        <a href="https://www.dropbox.com/s/yxy1qrjsttuojwx/Next%20Manhattan%20Train.mp3?dl=1"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/102827/next-manhattan-train-cover.jpg">
+        <p>next manhattan train</p></a>
+        <p>2014 / 41mb / 48min</p>
+      </li>
+      <li class="column ratio-4-12">
+        <a href="https://www.dropbox.com/s/p981k2glgg04u3k/Horizons.mp3?dl=1"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/102827/2014-03-08_12.26.05_comp_pub_final.jpg">
+        <p>horizons</p></a>
+        <p>2014 / 44mb / 52min</p>
+      </li>
+      <li class="column ratio-4-12">
+        <a href="https://www.dropbox.com/s/qs7w3n1qilahs8t/EP%200908.mp3?dl=1"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/102827/ep0908-cover.jpg">
+        <p>EP0908</p></a>
+        <p>2014 / 23mb / 28min</p>
+      </li>
+      <li class="column ratio-4-12">
+        <a href="https://www.dropbox.com/s/1241kh9mdfbmqll/Alive.mp3?dl=1"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/102827/Screen_Shot_2013-12-24_at_9.19.28_PM_zero_comp.png">
+        <p>alive</p></a>
+        <p>2013 / 62mb / 74min</p>
+      </li>
+    </ul>
+  </div>
+  <script src="bbplayer.js"></script>
+
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+  </script>
+</body>
+</html>
