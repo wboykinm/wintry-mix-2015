@@ -91,6 +91,7 @@ ul {
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  list-style-type:none;
 }
 
 .column.ratio-12-12 {
