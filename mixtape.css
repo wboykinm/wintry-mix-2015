@@ -17,7 +17,7 @@ html {
 }
 
 body,button,input,select,textarea {
-  background-color: #fff;
+  background-color: skyblue;
   color: #231f20;
   font-family: 'Open Sans';
   font-size: 2vw;
@@ -27,6 +27,7 @@ body,button,input,select,textarea {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  margin:0px;
 }
 
 a,a:visited {
@@ -170,22 +171,6 @@ ul {
 }
 
 /***********************************
-**            playlist           **
-***********************************/
-.playlist {
-  margin-top: 3rem;
-}
-
-.playlist li {
-  margin-bottom: 3rem;
-}
-
-.focus {
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-/***********************************
 **          music player         **
 ***********************************/
 .bbplayer {
@@ -209,7 +194,7 @@ ul {
   justify-content: space-around;
   left: 0;
   opacity: .9;
-  padding: 4rem 0;
+  padding: 2rem 0;
   position: relative;
   top: 0;
   -webkit-user-select: none;

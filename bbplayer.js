@@ -111,7 +111,7 @@
     var duration  = toTimeString(Math.ceil(audioElem.duration));
     var elapsed   = toTimeString(Math.ceil(audioElem.currentTime));
     var title     = parseTitle(audioElem.currentSrc);
-    console.log(audioElem);
+    //console.log(audioElem);
     this.bbplayer.getElementsByClassName('bb-trackLength').item(0).innerHTML = duration;
     this.bbplayer.getElementsByClassName('bb-trackTime').item(0).innerHTML = elapsed;
     this.bbplayer.getElementsByClassName('bb-trackTitle').item(0).innerHTML = title;
