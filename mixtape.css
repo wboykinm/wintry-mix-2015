@@ -56,10 +56,13 @@ h1 {
 
 h2 {
   font-family: 'Playfair Display';
-  font-size: 7vw;
+  font-size: 3vw;
   font-style: italic;
   font-weight: 400;
   text-transform: capitalize;
+  position: absolute;
+  left:50px;
+  top: 10px;
 }
 
 img {
@@ -186,8 +189,12 @@ ul {
 **          music player         **
 ***********************************/
 .bbplayer {
-  background-image: url("wintersnow.jpg");
-  background-color: #000;
+  /*background: #ffffff url("wintersnow.jpg") no-repeat center top;*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(tape.jpg),url(wintersnow.jpg);
+  background-color: skyblue;
+  background-blend-mode: multiply;
   color: #fff;
   display: -webkit-box;
   display: -webkit-flex;
@@ -261,7 +268,7 @@ ul {
   -ms-flex-item-align: start;
   align-self: flex-start;
   text-align: center;
-  font-size: 8vw;
+  font-size: 5vw;
 }
 
 .bbplayer .bb-trackTime {
