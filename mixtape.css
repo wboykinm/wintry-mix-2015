@@ -80,94 +80,10 @@ ul {
 **         column system         **
 ***********************************/
 .column {
-  float: left;
-}
-
-.column-row {
-  overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  list-style-type:none;
-}
-
-.column.ratio-12-12 {
-  width: 100%;
+  width: 80%;
   box-sizing: border-box;
   padding: .5rem;
-}
-
-.column.ratio-11-12 {
-  width: 91.6666667%;
-  box-sizing: border-box;
-  padding: .5rem;
-}
-
-.column.ratio-10-12 {
-  width: 83.3333333%;
-  box-sizing: border-box;
-  padding: .5rem;
-}
-
-.column.ratio-9-12 {
-  width: 75%;
-  box-sizing: border-box;
-  padding: .5rem;
-}
-
-.column.ratio-8-12 {
-  width: 66.6666667%;
-  box-sizing: border-box;
-  padding: .5rem;
-}
-
-.column.ratio-7-12 {
-  width: 58.3333333%;
-  box-sizing: border-box;
-  padding: .5rem;
-}
-
-.column.ratio-6-12 {
-  width: 50%;
-  box-sizing: border-box;
-  padding: .5rem;
-}
-
-.column.ratio-5-12 {
-  width: 41.6666667%;
-  box-sizing: border-box;
-  padding: .5rem;
-}
-
-.column.ratio-4-12 {
-  width: 33.3333333%;
-  box-sizing: border-box;
-  padding: .5rem;
-}
-
-.column.ratio-3-12 {
-  width: 25%;
-  box-sizing: border-box;
-  padding: .5rem;
-}
-
-.column.ratio-2-12 {
-  width: 16.6666667%;
-  box-sizing: border-box;
-  padding: .5rem;
-}
-
-.column.ratio-1-12 {
-  width: 8.3333333%;
-  box-sizing: border-box;
-  padding: .5rem;
+  padding-left: 20%;
 }
 
 /***********************************
